@@ -202,8 +202,9 @@ main {
     padding: 20px 10% 0 10%;
 }
 
-#signup-form h2 {
+#signup-form > h2 {
     color: #fafafa;
+    margin-bottom: 20px;
 }
 
 #signup-form {
@@ -213,14 +214,14 @@ main {
 }
 
 .text-input {
+    background: transparent;
     color: #fafafa;
     border: 1px solid #fafafa;
     border-radius: 2px;
-    padding: 5px 0;
+    padding: 0 5px;
     height: 25px;
     width: 100%;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin: 5px 0 20px 0;
 }
 
 #radio-buttons {
@@ -230,7 +231,9 @@ main {
 }
 
 .join-button {
+    margin-top: 20px;
     border-radius: 2px;
+    padding: 15px 32px;
     background-color: #454b1b;
     color: #fafafa;
     font-size: 100%;
@@ -325,7 +328,7 @@ main {
 
     /* SignUp form */
     #signup {
-        background-position: left;
+        background-position: center;
         position: relative;
     }
 
